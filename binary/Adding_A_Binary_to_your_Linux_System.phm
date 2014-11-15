@@ -1,0 +1,25 @@
+1. Never personally add files to /usr/bin or /usr/share/bin. More information here: http://cur.lv/fknnb
+
+2. If you like, create a folder called ~/bin. This will be in your home directory. For me, when I type the command 
+	mkdir ~/bin
+it then appears at /home/phm/bin. 
+
+3. Your bash will already index this folder, so it's actually a better idea not to place files here either. However, you can place symbolic links here, so:
+
+3a. Create a "programs" folder -- 
+	mkdir ~/programs
+
+4. Move your 3rd party, non-repository binaries to ~/programs --
+
+	mv <binary_file> ~/programs
+
+5. Lastly, create a symbolic link. This can be done through the GUI or it can be done by typing (you may need superuser privileges, in which case prepend "sudo"):
+	
+	ln -s ~/programs/<binary_file> ~/bin/<binary_file>
+
+Please write to me with any questions. I'll be happy to help. :)
+
+Paul Madore
+@bitillionaire
+bitillionaire@gmail.com
+HFmAhgkJSiJNw836kouEuzxLf9PuM9MKL4
