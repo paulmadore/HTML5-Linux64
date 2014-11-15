@@ -16,6 +16,8 @@ it then appears at /home/phm/bin.
 5. Lastly, create a symbolic link. This can be done through the GUI or it can be done by typing (you may need superuser privileges, in which case prepend "sudo"):
 	
 	ln -s ~/programs/<binary_file> ~/bin/<binary_file>
+	
+Now you'll be able to simply type "htmlcoin" into your terminal to launch, or create a desktop shortcut, or what have you.
 
 Please write to me with any questions. I'll be happy to help. :)
 
